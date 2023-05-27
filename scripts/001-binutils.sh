@@ -48,6 +48,7 @@ for TARGET in "mips64r5900el-ps2-elf"; do
   ## Configure the build.
   ../configure \
     --quiet \
+    --with-expat \
     --prefix="$PS2DEV/$TARGET_ALIAS" \
     --target="$TARGET" \
     --disable-separate-code \

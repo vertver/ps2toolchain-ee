@@ -47,6 +47,7 @@ for TARGET in "mips64r5900el-ps2-elf"; do
 
   ## Configure the build.
   ../configure \
+    --with-expat=yes \
     --quiet \
     --prefix="$PS2DEV/$TARGET_ALIAS" \
     --target="$TARGET" \
